@@ -1,0 +1,102 @@
+/* MAIN Resets */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 1.2rem;
+    font-family: 'Ubuntu', sans-serif;;
+    text-decoration: none;
+    list-style: none;
+    color: rgb(249, 249, 250);
+}
+
+body{
+    max-width: 100%;
+    max-height: 100%;
+    background-color: rgb(43, 42, 51);
+}
+
+.main_conteiner{
+    width: 500px;
+    max-width: 100%;
+    min-width: 350px;
+    margin: 3% auto;
+    /*border: 1px solid rgb(65, 65, 77);*/
+}
+
+.main_conteiner h2{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+    margin: 10px;
+    padding: 5px;
+    border-bottom: 1px solid rgb(65, 65, 77);
+}
+
+.profile{
+    display: flex;
+    margin: 10px;
+    align-items: center;
+}
+
+.profile img{
+    width: 150px;
+    height: 150px;
+    padding: 3px;
+    border: 1px solid rgb(65, 65, 77);
+}
+
+.myname{
+    margin: auto;
+    text-align: center;
+}
+
+.myname h1{
+    padding: 10px 0;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.myname p{
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.links ul{
+    margin: 10px;
+}
+
+.links ul li{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.links ul li a{
+    display: block;
+    padding: 5px 0;
+    font-size: 17px;
+    background-color: rgb(65, 65, 77);
+    text-transform: uppercase;
+    font-weight: 300;
+    color: rgb(209, 209, 210);
+    transition: background 400ms;
+}
+
+.links ul li a:hover{
+    background-color: rgb(75, 75, 87);
+    color: rgb(249, 249, 250);
+}
+
+footer{
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+}
+
+footer p{
+    font-size: 12px;
+    font-weight: 300;
+    opacity: 0.2;
+    margin-top: 20px;
+}
